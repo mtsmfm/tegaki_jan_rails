@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'TegakiJan';
+  src: url(<%= font_path('tegaki-jan.woff') %>) format('woff');
+}
+
+.tj {
+  font-family: 'TegakiJan';
+  font-style:  normal;
+  font-weight: normal;
+}
+
+<%
+  contents =
+    %w(east south west north red green white) +
+      ('character-1'..'character-9').to_a +
+      ('bamboo-1'..'bamboo-9').to_a +
+      ('circle-1'..'circle-9').to_a
+  contents.each_with_index do |content, i| %>
+.tj-<%= content %>:before {
+  content: '<%= '\1F' + '%03x' % i %>';
+}
+<% end %>
