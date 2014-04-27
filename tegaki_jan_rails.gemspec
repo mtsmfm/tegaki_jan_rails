@@ -7,11 +7,11 @@ require "tegaki_jan_rails/version"
 Gem::Specification.new do |s|
   s.name        = "tegaki_jan_rails"
   s.version     = TegakiJanRails::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of TegakiJanRails."
-  s.description = "TODO: Description of TegakiJanRails."
+  s.authors     = ["mtsmfm"]
+  s.email       = ["mtsmfm@gmail.com"]
+  s.homepage    = "https://github.com/tegaki_jan_rails"
+  s.summary     = "tetaki-jan font bundled for rails"
+  s.description = "tetaki-jan font bundled for rails"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
