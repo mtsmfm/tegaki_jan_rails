@@ -1,11 +1,11 @@
-# tegaki-jan-rails
+# tegaki_jan_rails
 
 ## Installation
 
 Add this to your Gemfile:
 
 ```ruby
-gem "tagaki-jan-rails"
+gem "tagaki_jan_rails"
 ```
 
 and run `bundle install`.
@@ -24,5 +24,5 @@ In your `application.css`, include the css file:
 
 ```ruby
 tj_icon 'east'
-=> <i class="tj tj-east"></i>
+#=> <i class="tj tj-east"></i>
 ```
